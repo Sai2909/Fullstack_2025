@@ -1,0 +1,33 @@
+1.what is JS data types ?
+2.what is let, var, const in JS ?
+3.what is == and === in JS ?
+4.what is null and undefined in JS ?
+5.what is local storage and session storage in JS ?
+6.what is map, filter, reducer, forEach in JS ?
+7.what are ES6 features in JS ?
+8.what is shallow copy and deep copy in JS ?
+9.what is rest and spread in JS ?
+10.what is debugging in JS ?
+11.what is hoisting in JS ?
+12.what is strict mode in JS ?
+13.what is this keyword in JS ?
+14.what is Destructuring in JS ?
+15.what is authentication and authrization in JS ?
+16.what is Object.freez() and Object.seal() in JS ?
+17.what is for in for of in JS ?
+18.what is arrow function and normal function in JS ?
+19.what is polyfil in JS ?
+20.what is closure in JS?
+21.what is debounce and throttling in JS ?
+22.what is setTimeout and setInterval and clearTimeout & clearInterval in JS ?
+23.what is call bind applay in JS ?
+24.what is promise and promise all in JS ?
+25 what is async and await in JS ?
+26.what is callback and callback hell in JS ?
+27.what is higher order function (HOF) in JS ?
+28.what is currying in JS ?
+29.what is event bublig and event delegation in JS ?
+30.what is prototype in JS ?
+31.what is cors and coockies in JS ?
+32.what is slice() and splice(), indexOf(), split(), join(), some(), every() in JS ?
+33.what is for() if()else() while() in JS ?
