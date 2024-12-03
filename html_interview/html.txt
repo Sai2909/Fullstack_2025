@@ -1,0 +1,6 @@
+1.what is HTML and HTML5 ?
+2.what is !DOCTYPE ?
+3.what is element and tag ?
+4.what is <div> and <span> ?
+5.what are semantic elements ?
+6.what are void elements ?
