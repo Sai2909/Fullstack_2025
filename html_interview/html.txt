@@ -4,3 +4,5 @@
 4.what is <div> and <span> ?
 5.what are semantic elements ?
 6.what are void elements ?
+7.what is inline and block elements ?
+8.what is Meta tag in HTML ?

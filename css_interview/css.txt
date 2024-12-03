@@ -1,0 +1,8 @@
+1.what is inline and external & embedded in css ?
+2.what is box model ?
+3.what is display and flex  and grid ?
+4.what are css positions ?
+5.what is Z-index ?
+6.what are css selectors ?
+7.what are pseudo classes and pseudo elements in css ?
+8.what is responsive Design ?
