@@ -1,0 +1,29 @@
+1.what is react js ?
+2.what are features of react js?
+3.what is virtual dom  and real dom ?
+4.what is shadow dom in react js ?
+5.what is client side rendering and server side rendering in react js ?
+6.what is package.json and package-lock.json in react js ?
+7.what is JSX in react js ?
+8.what is fragment in react js ?
+9.what is function component and class component in react js ?
+10.what is state and props in react js ?
+11.what is key in react js ?
+12.what is prop drilling in react js ?
+13.what is pure and impure component in react js ?
+14.what is useState ?
+15.what is useEffect?
+16.what is useContext ?
+17.what is useMemo ?
+18.what is useRef ?
+19.what is useCallback?
+20.what is usereducer ?
+21.what is context api ?
+22.what is controlled and uncontrolled components in react js ?
+23.what is life cycle hooks and methods in react js ?
+24.what is synthetic events in react js ?
+25.what is error boundary in react js ?
+26.what is lazy loading and suspance in react js ?
+27.what is performance optimization in react js ?
+28.what is redux toolkit (action, reducer, useSelector, useDispatch) ?
+29.what is react routing ?
