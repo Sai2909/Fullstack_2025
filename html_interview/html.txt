@@ -6,3 +6,6 @@
 6.what are void elements ?
 7.what is inline and block elements ?
 8.what is Meta tag in HTML ?
+
+                **Resource**
+https://github.com/Sai2909/html_css_2024/blob/main/interview/quetions.txt

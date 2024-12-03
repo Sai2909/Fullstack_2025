@@ -6,3 +6,6 @@
 6.what are css selectors ?
 7.what are pseudo classes and pseudo elements in css ?
 8.what is responsive Design ?
+
+                **Resource**
+https://github.com/Sai2909/html_css_2024/blob/main/interview/quetions.txt

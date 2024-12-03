@@ -31,3 +31,16 @@
 31.what is cors and coockies in JS ?
 32.what is slice() and splice(), indexOf(), split(), join(), some(), every() in JS ?
 33.what is for() if()else() while() in JS ?
+
+                 **Resource**
+https://www.harshadpatil.com/
+https://www.codinn.dev/javascript
+https://akcoding.com/javascript-interview/variables-interview-questions/
+https://web.dev/learn/javascript/comparison#type-coercion-equality
+https://norbertbm.github.io/all-javascript-array-methods/
+
+
+              **coding challenges**
+https://github.com/sanchit0496/vanilla-js-machine-coding-challenges
+https://learndepth.com/
+https://github.com/RohitSharma50/Javascript_Machine_coding

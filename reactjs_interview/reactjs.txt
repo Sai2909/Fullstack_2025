@@ -27,3 +27,18 @@
 27.what is performance optimization in react js ?
 28.what is redux toolkit (action, reducer, useSelector, useDispatch) ?
 29.what is react routing ?
+30.what is axios ?
+
+
+                **Resource**
+https://akcoding.com/react-tutorial/react-hooks/usememo/
+https://www.harshadpatil.com/
+https://www.codinn.dev/reactjs/reactjs-interview-question    
+https://daily.dev/blog/react-hooks-explained-simply#refactoring-class-components
+https://codeparrot.ai/blogs/learn-redux-toolkit-for-state-management-in-react   (https://codeparrot.ai/blogs)
+https://saigontechnology.com/blog/redux-toolkit/    
+
+
+               **coding challenges**
+https://github.com/sanchit0496/reactjs-machine-coding-challenges
+https://github.com/NikhilJHA01/Machine-Coding-Round

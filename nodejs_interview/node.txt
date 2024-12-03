@@ -1,0 +1,36 @@
+1.what is node.js ?
+2.What are the main features of node.js ?
+3.Explain the concept of Promises in node.js ?
+4.What is the difference between synchronous and asynchronous functions in node.js ?
+5.What is the purpose of the `async` and `await` keywords in node.js ?
+6.What is a callback function in node.js ?
+7.What is the purpose of the `require` function in node.js ?
+8.What is the Difference between require and import in node.js ?
+9.Explain the concept of middleware in Express.js?
+10.What are Event Listeners? 
+11.What is Callback Hell ?
+12.What is V8 ?
+13.What is libuv ?
+14.What is REPL in context of Node ? 
+15.What is Callback?
+16.What is Event Loop?
+17.What is Event Emmitter?
+18.What is purpose of Buffer class in Node?
+19.What is difference between synchronous and asynchronous method of fs module?
+20.What are streams?
+21.What is the purpose of setTimeout function?
+22.How can you avoid callback hells?
+23.What's the event loop? 
+24.What is stream and what are types of streams available in Node.js?
+25.What are the global objects of Node.js?
+26.What is Piping in Node? 
+27.Is Node.js entirely based on a single-thread?
+28.When should I use EventEmitter?
+29.What are the timing features of Node.js?
+30.Explain usage of NODE_ENV?
+31.What's the difference between dependencies, devDependencies and peerDependencies in npm package.json file? 
+
+
+                    **Resource**
+https://medium.com/@saikiranmanchala2000/nodejs-2024-0c695bcdb5d4
+https://gist.github.com/paulfranco/9f88a2879b7b7d88de5d1921aef2093b
