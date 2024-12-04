@@ -1,0 +1,30 @@
+1. Reverse an array.
+2. Find the maximum and minimum element in an array.
+3. Find the kth smallest element in an array.
+4. Sort an array using the bubble sort algorithm.
+5. Sort an array using the merge sort algorithm.
+6. Implement a binary search algorithm.
+7. Find the missing number in an array.
+8. Find the duplicate element in an array.
+9. Rotate an array by k positions.
+10. Check if a string is a palindrome.
+11. Find the first non-repeating character in a string.
+12. Reverse a string.
+13. Check if two strings are anagrams.
+14. Find the factorial of a number using recursion.
+15. Generate all subsets of a set.
+16. Find the nth Fibonacci number.
+17. Implement a stack using arrays.
+18. Implement a queue using arrays.
+19. Implement a circular queue.
+20. Implement a linked list and perform basic operations.
+21. Find the middle element of a linked list.
+22. Detect a loop in a linked list.
+23. Find the intersection point of two linked lists.
+24. Implement a binary tree and perform inorder traversal.
+25. Implement a binary search tree.
+26. Find the height of a binary tree.
+27. Check if a binary tree is balanced.
+28. Implement depth-first search (DFS).
+29. Implement breadth-first search (BFS).
+30. Find the shortest path in a graph using Dijkstra's algorithm.
