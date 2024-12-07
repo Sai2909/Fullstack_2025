@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Carousel</title>
+</head>
+
+<body>
+  <div id="image-container">
+    <img src="" alt="Carousel Image" id="carousel-image" />
+  </div>
+  <div>
+    <button id="prev-btn" disabled>Prev</button>
+    <button id="next-btn">Next</button>
+  </div>
+
+  <script>
+    const imageElement = document.getElementById("carousel-image");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+
+    const images = [
+      "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/534164/pexels-photo-534164.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ];
+
+    let currentIndex = 0;
+
+    // Function to render the image and update button states
+    function render() {
+      imageElement.src = images[currentIndex];
+      imageElement.alt = `Carousel Image ${currentIndex + 1}`;
+
+      // Disable/enable buttons based on the current index
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex === images.length - 1;
+    }
+
+    // Event listeners for buttons
+    prevBtn.addEventListener("click", () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        render();
+      }
+    });
+
+    nextBtn.addEventListener("click", () => {
+      if (currentIndex < images.length - 1) {
+        currentIndex++;
+        render();
+      }
+    });
+
+    // Initialize carousel
+    render();
+  </script>
+</body>
+
+</html>

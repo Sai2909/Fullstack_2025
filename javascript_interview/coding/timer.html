@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <h2>Timer: <span id="time-container"></span> s</h2>
+    <button id="start-btn">Start</button>
+    <button id="stop-btn">Stop</button>
+    <button id="reset-btn">Reset</button>
+</body>
+<script>
+    let time = 0;
+    let timer = null;
+
+    const startBtn = document.getElementById("start-btn");
+    const stopBtn = document.getElementById("stop-btn");
+    const resetBtn = document.getElementById("reset-btn");
+    const timeContainer = document.getElementById("time-container");
+
+    function formatTime(seconds) {
+        let hours = Math.trunc(seconds / 3600);
+        let mins = Math.trunc((seconds % 3600) / 60);
+        let secs = Math.trunc((seconds % 3600) % 60);
+        return `${hours}:${mins}:${secs}`;
+    }
+
+    startBtn.addEventListener("click", () => {
+        if (!timer) {
+            timer = setInterval(() => {
+                time++;
+                renderTime();
+            }, 1000);
+            startBtn.disabled = true;
+            stopBtn.disabled = false;
+            resetBtn.disabled = false;
+        }
+    });
+
+    stopBtn.addEventListener("click", () => {
+        clearInterval(timer);
+        timer = null;
+        startBtn.disabled = false;
+        stopBtn.disabled = true;
+        resetBtn.disabled = false;
+    });
+
+    resetBtn.addEventListener("click", () => {
+        clearInterval(timer);
+        time = 0;
+        timer = null;
+        renderTime();
+        startBtn.disabled = false;
+        stopBtn.disabled = true;
+        resetBtn.disabled = true;
+    });
+
+    function renderTime() {
+        timeContainer.innerText = formatTime(time);
+    }
+
+    function init() {
+        renderTime();
+        startBtn.disabled = false;
+        stopBtn.disabled = true;
+        resetBtn.disabled = true;
+    }
+
+    init();
+
+</script>
+
+</html>
