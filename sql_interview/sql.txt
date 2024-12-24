@@ -1,0 +1,22 @@
+1.What is SQL ?
+2.What is DataBase ?
+3.What is diff char & varChar in SQL ?
+4.What is DDL and DML in SQL ?
+5.What is VIEW in SQL ?
+6.What is FK & PK in SQL ?
+7.What is Query and SubQuery in SQL ?
+8.What is Constraint and default Constraint in SQL ?
+9.What is Normalization and Denormalization in SQL ?
+10.What is StoreProcedure in SQL ?
+11.What is Aggregation Fn and Scalar Fn in SQL ?
+12.What is SQL Injection ?
+13.what is Trigger in SQL?
+14.What is BETWEEN and IN operator in SQL ?
+15.What is diff Primary Key and Unique Constraints in SQL ?
+16.what is JOIN in sql and Types ?
+17.what is INDEX in SQL ?
+18.what is Cursor in SQL ?
+19.What is Trigger in SQL ?
+20.What is diff TRUNCATE and DELETE in SQL ?
+21.what is cluster and clusterIndex in SQL ?
+22.
