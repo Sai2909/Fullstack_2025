@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        function disappear() {
+            document.getElementById("shape").classList.add("hide");
+        }
+    </script>
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .square {
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+        }
+
+        .square.blue {
+            background-color: blue;
+        }
+    </style>
+    <div id="shape" class="square blue"></div>
+
+    <button onclick="disappear()">Disappear!</button>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        function changeVisibility() {
+            document.getElementById("shape").classList.toggle("hide");
+        }
+    </script>
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .square {
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+        }
+    </style>
+    <div id="shape" class="square"></div>
+
+    <button onclick="changeVisibility()">Magic!</button>
+</body>
+
+</html>
