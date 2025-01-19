@@ -2,10 +2,59 @@
 2.what is !DOCTYPE ?
 3.what is element and tag ?
 4.what is <div> and <span> ?
-5.what are semantic elements ?
+5.what are semantic and non semantic elements in HTML ?
 6.what are void elements ?
 7.what is inline and block elements ?
 8.what is Meta tag in HTML ?
+9.what is website and webpage in HTML ?
+10.
 
                 **Resource**
 https://github.com/Sai2909/html_css_2024/blob/main/interview/quetions.txt
+
+
+
+html :
+-it is the "standard text formatting language" used for "creating and displaying pages on web".
+-html documents are madeup with two things :the content and the tags that formates it for proper display on pages.
+
+
+meta:
+meta which is a void tag.
+it doent have a closing tag.some of the attributes used with meta tag are name,content,http-equiv..etc.
+usign meta tag we can define the keyword and description which can be used by the search engine while indexing the webpages for searching.
+-using refresh and cookies value of the attribute http-equiv in meta tag will store the data in cookie and will refresh the page in the 10 sec as 
+specified in the content value.   example:: index.html
+-meta tag in html is used to provide meta data about the html document. it includes information such as character encoding ,viewport settings keywords, description,.
+
+
+
+doctype:
+doctype declaration in html specifies the document type and version being used .
+it is placed at the begining of the html document and helps the "browser  render the page correctly".
+
+
+inline block element:
+block level elements start on a new line and occupy the "full width available ",like paragraph or headinds.
+they create a "block" of content. ex:<p> <h1> <ul> <hr>
+inline elements dont start with on a new line and only occupy the "width neccessary",like links or span.
+they flow with in content,inline with sourrouding text. <a> <b> <i> <img>
+
+iframe:
+html is used to embedded another html document with in the current document. map ,social media widgets.
+it is commonly used for integrating external content while maintainng the structure of the main page .
+
+<div> and <span>
+-<div> tag is a block level element used to create a division or section in webpage.its commonly used for grouping and styling content.
+-<span> tag is a inline element used to applay styles to a specific section of text with block-level element  like <div>.
+
+
+semantic element:
+semantic html refers to using html element that convey meaning beyond just formatting to improve the structure and semantic of a webpage.
+<header><nav><footer> <article>..etc.
+-it enhances accessebility,search engine optimization and overall readbility of the code and content.
+
+
+
+
+

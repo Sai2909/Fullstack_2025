@@ -6,6 +6,41 @@
 6.what are css selectors ?
 7.what are pseudo classes and pseudo elements in css ?
 8.what is responsive Design ?
+9.why is used !important in css ?
+10.what is nth child use ?`
+11.what is grouping in css ?
+
 
                 **Resource**
 https://github.com/Sai2909/html_css_2024/blob/main/interview/quetions.txt
+
+
+
+8.what is responsive web design?
+-responsive wedesign is concept that is used to create webpages that can scale across multiplr 
+resolutions without any loss of information or screen tearing.
+-it automatically  adjusts the structure of the webpage based on the device it is viewed on the provide optimal viewing experince.
+
+
+ID (#) AND CLASS(.) SELECTORS:
+when you just need to select only one element ,use ID selector while if u want to select a group of element,having same css class then use
+class selector.
+
+
+Grouping:
+when more than one selector share the same declaration ,they may be grouped together via comma seperated list.
+this allows you to  reduce the size of the css and makes it more readable.
+
+9.the !important rule is A way to make your css cascade  but also have the rules you feel are most crucial always be applied.
+a rule that that has the !important property will always be applied no matter where the rule appears in the css document.
+
+
+5.the z-index property in css controls the stacking order of positioned elements.
+it specifies the stack level of an element, determining wheather it appears  in front of or  behind other elements on the web page.
+
+POSITIONS:
+-the positions of an element can be done using top,bottom,left,and right properties.
+-these are specify the distance of an html element from the edge of the viewport.
+-so to set the position we have to declare the positioning method.
+-FIXED:
+
