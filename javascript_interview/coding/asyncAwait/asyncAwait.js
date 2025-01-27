@@ -1,3 +1,10 @@
+/*
+https://github.com/iamshubhamjangle/HackTheCode/blob/main/Javascript-Interview-Series/Day8-async-await.md
+https://www.book2s.com/tutorials/javascript-async.html
+
+*/
+
+
 
 
 //using promises

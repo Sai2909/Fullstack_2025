@@ -1,0 +1,11 @@
+const products = [
+    { name: "Wireless Mouse", price: 19.99, inStock: true },
+    { name: "KeyBoard", price: 45.99, inStock: false },
+    { name: "Monitor", price: 45543.88, inStock: true },
+    { name: "HeadPhone ", price: 3452.975, inStock: false },
+    { name: "DeskTop ", price: 4567.35, inStock: true },
+];
+
+
+const sortingPrice = products.slice().sort((a, b) => a.price - b.price);
+console.log(sortingPrice)
