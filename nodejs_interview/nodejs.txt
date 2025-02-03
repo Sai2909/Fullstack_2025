@@ -45,4 +45,3 @@ advanced:
 4.Microservices architechure in node js ?
 5.Implementing the auathentication and authrization in node js?
 6.what diff b/w graphql and restfull api ?
-7.
