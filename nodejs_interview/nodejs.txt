@@ -1,0 +1,48 @@
+1.what is the features of Node js ?
+2.How does nodejs serverside?
+3.what is npm ?
+4.purpose of package.json ?
+5.module in node js ?
+6.what is __dirname and __dirfilename in node js?
+7.what is callback function in node js ?
+8.what is event loop in node js ?
+9.how can u handle errors in node js ?
+10.what is asynchronous in node js ?
+11.what is global object in node js ?
+12.what is express ?
+13.what is middleware in node js ?
+14.what is routing ?
+15.how do u create http server in node js?
+16.Describe the require role in node js ?
+17.how do u handle form data in node js ?
+18.what the role of env ?
+
+https://codewithpawan.medium.com/node-js-interview-preparation-guide-from-beginners-to-advanced-part-1-8bd78ee8f6f4
+
+
+
+Intermediate:
+=============
+1.what is streams in node js ?
+2.how do u handles errors in asynchronous and synchronous in node js ?
+3.debug in node js?
+4.concept of REST full apis in node js ?
+5.security practices in node js ?
+6.how do u handle data base in node js?
+7. setTimeout, setImmediate,process.nextClick() in node js ?
+8.file uplaoding in node js ? multer
+9.what is diff require and module in node js ?
+10.what is auathentication in node js ?
+11.what is cors in node js ?
+12.how do u deploy in node js project ?
+
+
+advanced:
+==========
+1.event-driven programming paradigam in node js ?
+2.clustering in node js ?
+3.avoiding the callback hell in node js ?
+4.Microservices architechure in node js ?
+5.Implementing the auathentication and authrization in node js?
+6.what diff b/w graphql and restfull api ?
+7.
