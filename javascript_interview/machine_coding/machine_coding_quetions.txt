@@ -1,3 +1,89 @@
-1.even or odd ?
-2.leap year or not ?
-3.MoveZero to end
+1.Palidrom
+
+function isPalindrom(inputString) {
+    inputString = inputString.toLowerCase();
+    let start = 0;
+    let end = inputString.length - 1;
+    for (start, end; start < end; start++, end--) {
+        if (inputString[start] !== inputString[end]) {
+            return false;
+        }
+    }
+    return true;
+
+}
+
+
+2.Flatten Array
+
+let arr = [[1, 2, 3, [5], 6], [[6]], [6, 6, 8, [5, [6], [7]]], [2, 3]];
+const flatArray = (arrToFlat) => {
+    let result = [];
+    for (let i = 0; i < arrToFlat.length; i++) {
+        if (Array.isArray(arrToFlat[i])) {
+            result = result.concat(flatArray(arrToFlat[i]))//recursively flatten
+        } else {
+            result.push(arrToFlat[i])
+        }
+    }
+    return result;
+}
+console.log(flatArray(arr))
+
+
+
+3.Remove Duplicates
+
+const uniqueArray = removeDuplicateValues.reduce((accumulate, currentValue) => {
+    if (!accumulate.includes(currentValue)) {
+        accumulate.push(currentValue)
+    }
+    return accumulate;
+}, [])
+
+
+4.Factorial
+
+function cal(inputNumber) {
+    if (inputNumber < 0) {
+        throw new Error("input number should be graterthan are equal to zero... ");
+    }
+    let result = 1;
+    for (let i = 1; i <= inputNumber; i++) {
+        result = result * i
+        // result *= i
+    }
+    return result;
+}
+console.log(cal(4))
+
+
+5.Prime Factors
+
+function factors(n) {
+    let factors = [];
+    for (let i = n; i >= 1; i--) {
+        if (n % i === 0) {
+            factors.push(i);
+        }
+    }
+    return factors;
+}
+console.log(factors(42))
+
+
+6.Longest and smallest String
+
+
+7.Find Max in Array---
+8.Prime or not
+9.Reverse String
+10.Fibonacci series
+11.merge 2 sorted Array (optional)
+12.Adcending order and dsending order (optional)
+13.string to Object ('a.b.c', 'someValue') to object {a: {b: {c: 'someValue'}}}
+14.second largest number in Array.
+15.movng zeros to end in array.
+
+
+nyt 12 varaki html css coding perfect 

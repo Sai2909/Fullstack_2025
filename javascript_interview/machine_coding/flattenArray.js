@@ -11,3 +11,5 @@ const flatArray = (arrToFlat) => {
     return result;
 }
 console.log(flatArray(arr))
+
+
