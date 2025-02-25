@@ -9,4 +9,4 @@ function inputString(input) {
     return result
 
 }
-console.log(inputString('hellg manchalaa'))
+console.log(inputString('hello manchalaa'))

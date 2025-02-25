@@ -75,10 +75,115 @@ console.log(factors(42))
 6.Longest and smallest String
 
 
-7.Find Max in Array---
+const longestWord = (word) => {
+    let wordSplit = word.split(" ");
+    let store = " "
+    for (let index = 0; index < wordSplit.length; index++) {
+        if (wordSplit[index].length > store.length) {
+            store = wordSplit[index];
+        }
+
+    }
+    return store;
+}
+console.log(longestWord("my name is saikiran"))
+
+
+//smallest
+function findSmallestWord() {
+    const sentence = "Find the smallest word";
+    const words = sentence.split(' ');
+    let smallestWord = words[0];
+  
+    for (let i = 1; i < words.length; i++) {
+        if (words[i].length < smallestWord.length) {
+            smallestWord = words[i];
+        }
+    }
+    console.log(smallestWord);
+  }
+  
+  findSmallestWord();
+
+
+
+7.Find Max in Array
+
+function findMax(inputNumber) {
+    if (inputNumber.length === 0) {
+        return undefined;
+    }
+    let max = inputNumber[0]
+
+    for (let i = 0; i < inputNumber.length; i++) {
+        if (inputNumber[i] > max) {
+            max = inputNumber[i];
+        }
+    }
+    return max;
+
+}
+console.log(findMax([1, 2, 4, 6, 3, 876, 4, 5]))
+
+
 8.Prime or not
+
+function isPrime(num) {
+    if (num < 2) {
+        return false;
+    }
+    for (let i = 2; i < num; i++) {
+        if (num % i === 0) {
+            return false
+        }
+    }
+    return true
+}
+console.log(isPrime(3))
+
+
 9.Reverse String
+
+function inputString(input) {
+    if (typeof input !== "string") {
+        throw new Error('Only string are allowed..!')
+    }
+    let result = "";
+    for (let i = input.length - 1; i >= 0; i--) {
+        result += input[i]
+    }
+    return result
+
+}
+console.log(inputString('hello manchalaa'))
+
+
 10.Fibonacci series
+
+
+function fibonacci(n) {
+    let a = 0, b = 1, temp;
+    for (let i = 2; i <= n; i++) {
+        temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return n === 0 ? a : b;
+
+}
+console.log(fibonacci(9));
+
+
+function fibonacciSeries(n) {
+    let series = [0, 1];
+    for (let i = 2; i < n; i++) {
+        series.push(series[i - 1] + series[i - 2]);
+    }
+    return series
+}
+console.log(fibonacciSeries(8))
+
+
 11.merge 2 sorted Array (optional)
 12.Adcending order and dsending order (optional)
 13.string to Object ('a.b.c', 'someValue') to object {a: {b: {c: 'someValue'}}}
