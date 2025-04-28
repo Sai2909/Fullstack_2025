@@ -3,7 +3,7 @@ const flatArray = (arrToFlat) => {
     let result = [];
     for (let i = 0; i < arrToFlat.length; i++) {
         if (Array.isArray(arrToFlat[i])) {
-            result = result.concat(flatArray(arrToFlat[i]))//recursively flatten
+            result = result.concat(flatArray(arrToFlat[i])) //recursively flatten
         } else {
             result.push(arrToFlat[i])
         }

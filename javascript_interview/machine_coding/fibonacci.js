@@ -11,6 +11,10 @@ function fibonacci(n) {
 console.log(fibonacci(9));
 
 
+
+
+
+
 function fibonacciSeries(n) {
     let series = [0, 1];
     for (let i = 2; i < n; i++) {
@@ -19,3 +23,15 @@ function fibonacciSeries(n) {
     return series
 }
 console.log(fibonacciSeries(8))
+
+
+
+
+function fibbo(fib) {
+    let values = [0, 1];
+    for (let i = 2; i < fib; i++) {
+        values.push(values[i - 1] + values[i - 2]);
+    }
+    return values
+}
+console.log(fibbo(9))

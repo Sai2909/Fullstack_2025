@@ -13,3 +13,15 @@ function checkEvenOrOdd2(a) {
 }
 console.log(checkEvenOrOdd(13))
 console.log(checkEvenOrOdd(12))
+
+
+
+
+function checkNum(num) {
+    if (num % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(checkNum(4))

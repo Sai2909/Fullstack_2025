@@ -42,5 +42,15 @@ POSITIONS:
 -the positions of an element can be done using top,bottom,left,and right properties.
 -these are specify the distance of an html element from the edge of the viewport.
 -so to set the position we have to declare the positioning method.
--FIXED:
+
+FIXED:the element is positioned related to the browser window.
+Sticky:the element is positioned based on the users scroll position.
+relative:the element is positioned relative to the normal position.
+abosolute:the element is positioned abosolutely to its first positioned parent.
+static:this is the default value , all elements are in order as they appear in the document.
+
+
+
+https://www.sololearn.com/blog/css-absolute-fix-relative-positioning/
+https://kolosek.com/css-position-relative-vs-position-absolute/
 
